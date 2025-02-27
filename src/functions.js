@@ -9,3 +9,12 @@ function calculateTotal(object) {
 }
 
 console.log(calculateTotal(order)) // 20
+
+// --------------------------------------
+// Test 2
+
+function formatUsername(firstName, lastName) {
+    return `${lastName}, ${firstName}`;
+}
+
+console.log(formatUsername('John', 'Doe')) // "Doe, John"
