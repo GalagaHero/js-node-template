@@ -53,3 +53,17 @@ function buildFullName(object) {
 }
 
 console.log(buildFullName(nameInfo)) // "John Doe"
+
+// --------------------------------------
+// Test 6
+
+const character = {
+    name: 'Hero',
+    weapon: 'Sword',
+    level: 1
+}
+function createCharacterDescription(object) {
+    return `Level ${object.level} ${object.name} wielding a ${object.weapon}`
+}
+
+console.log(createCharacterDescription(character)) // "Level 1 Hero wielding a Sword"
