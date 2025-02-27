@@ -40,3 +40,16 @@ function calculateCartTotal(object) {
 }
 
 console.log(calculateCartTotal(cart)) // 107
+
+// --------------------------------------
+// Test 5
+
+const nameInfo = {
+    firstName: 'John',
+    lastName: 'Doe'
+}
+function buildFullName(object) {
+    return `${object.firstName} ${object.lastName}`;
+}
+
+console.log(buildFullName(nameInfo)) // "John Doe"
