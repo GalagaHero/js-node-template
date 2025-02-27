@@ -18,3 +18,12 @@ function formatUsername(firstName, lastName) {
 }
 
 console.log(formatUsername('John', 'Doe')) // "Doe, John"
+
+// --------------------------------------
+// Test 3
+
+function combineStrings(firstWord, secondWord) {
+    return `${firstWord} ${secondWord}`
+}
+
+console.log(combineStrings('Hello', 'World')) // "Hello World"
