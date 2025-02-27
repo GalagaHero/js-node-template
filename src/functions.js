@@ -27,3 +27,16 @@ function combineStrings(firstWord, secondWord) {
 }
 
 console.log(combineStrings('Hello', 'World')) // "Hello World"
+
+// --------------------------------------
+// Test 4
+
+const cart = {
+    price: 100,
+    tax: 0.07
+}
+function calculateCartTotal(object) {
+    return object.price + (object.price * object.tax)
+}
+
+console.log(calculateCartTotal(cart)) // 107
